@@ -1,7 +1,7 @@
 var nome = prompt('Qual è il tuo nome?');
 console.log('Il suo nome è: ' + nome);
 
-var cognome = prompt('Ciao, ' + nome + ' qual è il tuo cognome?');
+var cognome = prompt('Ciao ' + nome + ', qual è il tuo cognome?');
 console.log('Il suo cognome è: ' + cognome);
 
 var colorePreferito = prompt('Qual è il tuo colore preferito?');
@@ -13,4 +13,4 @@ var password = document.getElementById('output');
 password.innerHTML =  '<strong>PASSWORD: </strong>'  + nome + cognome + colorePreferito + annoCorrente;
 
 var acthung = document.getElementById('avviso');
-acthung.append('Adesso copia la tua password; \nconservarla in un posto sicuro, però, \nnon ti servirà a nulla!');
+acthung.append('Adesso copia la tua password. \nConservarla in un posto sicuro, però, \nnon ti servirà a nulla!');
