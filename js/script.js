@@ -1,7 +1,7 @@
 var nome = prompt('Qual è il tuo nome?');
 console.log('Il suo nome è: ' + nome);
 
-var cognome = prompt('Qual è il tuo cognome?');
+var cognome = prompt('Ciao ' + nome + ' qual è il tuo cognome?');
 console.log('Il suo cognome è: ' + cognome);
 
 var colorePreferito = prompt('Qual è il tuo colore preferito?');
