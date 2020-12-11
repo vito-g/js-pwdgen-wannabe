@@ -10,7 +10,7 @@ console.log('Il suo colore preferito è: ' + colorePreferito);
 var annoCorrente = new Date().getFullYear();
 
 var password = document.getElementById('output');
-password.innerText = 'Password: ' + nome + cognome + colorePreferito + annoCorrente;
+password.innerHTML =  '<strong>PASSWORD: </strong>'  + nome + cognome + colorePreferito + annoCorrente;
 
 var acthung = document.getElementById('avviso');
 acthung.append('Adesso copia la tua password; \nconservarla in un posto sicuro, però, \nnon ti servirà a nulla!');
