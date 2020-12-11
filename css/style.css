@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+}
+
+.box {
+  width: 400px;
+  padding: 20px 40px;
+  background-color: red;
+  margin: auto;
+  text-align: center;
+}
+
+#output {
+  background-color: green;
+}
