@@ -14,3 +14,8 @@ password.innerHTML =  '<strong>PASSWORD: </strong>'  + nome + cognome + colorePr
 
 var acthung = document.getElementById('avviso');
 acthung.append('Adesso copia la tua password. \nConservarla in un posto sicuro, però, \nnon ti servirà a nulla!');
+
+
+if (new Date().getHours() < 18) {
+  document.getElementById("saluto").innerHTML = nome + ", ti auguriamo una buona giornata!";
+} else {document.getElementById("saluto").innerHTML = nome + ", ti auguriamo una buona serata!";}

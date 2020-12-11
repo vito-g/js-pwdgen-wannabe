@@ -43,3 +43,12 @@ pre {
 .box:hover  {
   background-color: white;
 }
+
+#saluto {
+  color: black;
+  font-style: italic;
+  font-size: 0.8rem;
+  text-align: right;
+  padding: 20px 0;
+  font-weight: lighter;
+}
