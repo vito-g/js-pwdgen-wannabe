@@ -6,6 +6,13 @@
 
 body {
   color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
 }
 
 p {
@@ -16,8 +23,11 @@ p {
   width: 400px;
   padding: 20px 40px;
   background-color: red;
-  margin: auto;
-  text-align: center;
+}
+
+pre {
+  color: black;
+  margin-top: 10px;
 }
 
 #output {
